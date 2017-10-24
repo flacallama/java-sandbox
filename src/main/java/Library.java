@@ -16,12 +16,18 @@ public class Library {
       tootsieroll.sayEthnicity();
       tootsieroll.setWeight();
 
-      Sweet cake = new Sweet("Cake", 600, "France");
+      Sweet cake = new Sweet("Cake", 600, "France", "chocolate");
       cake.talk();
       // cake.getEthnicity();
       cake.sayEthnicity();
       cake.setWeight();
 
+      Health potato = new Health("Potato", 30, "Peru");
+      potato.talk();
+      potato.setWeight();
+
+      Legume quinoa = new Legume("Quinoa", 100, "Ecuador", "not unpleasant");
+      quinoa.talk();
     }
 
 }
