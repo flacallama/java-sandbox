@@ -14,12 +14,13 @@ public class Library {
       // tootsieroll.getEthnicity();
       tootsieroll.talk();
       tootsieroll.sayEthnicity();
-      // tootsieroll.setWeight();
+      tootsieroll.setWeight();
 
       Sweet cake = new Sweet("Cake", 600, "France");
       cake.talk();
       // cake.getEthnicity();
       cake.sayEthnicity();
+      cake.setWeight();
 
     }
 

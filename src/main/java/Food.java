@@ -27,8 +27,9 @@ class Food {
     }
 
     public void setWeight(){
-      System.out.println("calories"+getCalories());
-      mycalories = getCalories()/ 9;
+      System.out.println("That "+getName()+" has "+getCalories()+" calories.");
+      int addedLbs = getCalories()/ 9;
+      System.out.println("That "+getName()+" made you gain "+ addedLbs+" grams of fat.");
     }
 
 
